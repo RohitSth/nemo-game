@@ -8,8 +8,12 @@ export default function HeroComponent() {
           Start Exploring
         </button>
       </div>
-      <div className="flex justify-end">
-        <img src="/mario.png" alt="image of mario" />
+      <div className="">
+        <img
+          className="h-auto max-w-full"
+          src="/mario.png"
+          alt="image of mario"
+        />
       </div>
     </div>
   );

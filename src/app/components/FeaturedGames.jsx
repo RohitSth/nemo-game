@@ -2,7 +2,9 @@ export default function FeaturedGames() {
   return (
     <>
       <div className="flex justify-between py-4">
-        <h1>Featured Games</h1>
+        <div className="border-l-4 border-l-indigo-500">
+          <h1 className="text-2xl font-bold p-3">Featured Games</h1>
+        </div>
         <button className="bg-white/20 py-2 px-8 rounded-2xl hover:bg-white/30">
           See All
         </button>
